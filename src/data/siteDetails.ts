@@ -1,6 +1,7 @@
 export const siteDetails = {
-  siteName: "Nomoo",
-  siteUrl: "https://finwise-omega.vercel.app/",
+  siteName: "Learn Yatra",
+  siteDescription: "Master AI-powered Tools for Operational Efficiency",
+  siteUrl: "https://www.learnyatra.com",
   metadata: {
     title: "Finwise - Next.js and Tailwind CSS Landing Page Template",
     description:
@@ -8,6 +9,6 @@ export const siteDetails = {
   },
   language: "en-us",
   locale: "en-US",
-  siteLogo: `${process.env.BASE_PATH || ""}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
+  // siteLogo: `../../public/images/learnyatra.png`, // or use a string for the logo e.g. "TechStartup"
   googleAnalyticsId: "", // e.g. G-XXXXXXX,
 };
